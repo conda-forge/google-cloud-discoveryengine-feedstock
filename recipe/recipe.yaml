@@ -1,5 +1,5 @@
 context:
-  version: "0.20.0"
+  version: "0.20.2"
 
 package:
   name: google-cloud-discoveryengine
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/g/google-cloud-discoveryengine/google_cloud_discoveryengine-${{ version }}.tar.gz
-    sha256: 4268d32f4b72f6d19748b2040b21882100c5a4790985bcdb6fcf161a1cebcba9
+    sha256: a020998974324faf1975636e40764b54ef422182329dc48287f94185c6f8edf2
 
 build:
   number: 0
@@ -21,12 +21,12 @@ requirements:
     - setuptools
   run:
     - python >=${{ python_min }}
-    - google-api-core >=1.34.1, <3.0.0,!=2.0.*,!=2.1.*,!=2.2.*
+    - google-api-core >=2.25.0, <3.0.0
     - google-auth >=2.14.1, <3.0.0,!=2.24.0,!=2.25.0
-    - proto-plus >=1.25.0, <2.0.0
-    - protobuf >=3.20.2,<7.0.0,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5
+    - proto-plus >=1.26.1, <2.0.0
+    - protobuf >=6.33.5, <8.0.0
     - grpcio >=1.75.1, <2.0.0
-    - grpcio-status >=1.75.1, <2.0.0
+    - grpc-google-iam-v1 >=0.14.2, <1.0.0
 
 tests:
   - python:
