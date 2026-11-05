@@ -1,5 +1,5 @@
 context:
-  version: "0.20.5"
+  version: "0.20.6"
 
 package:
   name: google-cloud-discoveryengine
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/g/google-cloud-discoveryengine/google_cloud_discoveryengine-${{ version }}.tar.gz
-    sha256: cd78028180f32a43aa586ab97d0074949f6326ad46b41058a773b2baa9f525d8
+    sha256: f94391ac1b3c1e44cda01550a4b0cbd071f4ce2b40adacefc214a24ac907881d
 
 build:
   number: 0
